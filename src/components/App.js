@@ -7,9 +7,7 @@ const App = () => {
 
   return (
     <div id="main">
-      <h1>User Profile</h1>
-      <h1 id="name">Name: {user.name}</h1>
-      <h1 id="age">Age: {user.age}</h1>
+      <User Profile/>
     </div>
   )
 }
